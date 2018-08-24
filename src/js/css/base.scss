@@ -1,0 +1,367 @@
+/**
+ * 这里编写 sass 之后，可在 vue 的 style 标签中通过 @import 相对路径引入
+ * 注意 style 标签的 lang 属性需要设置为 scss/sass
+ */
+
+.wrapper {
+    flex: 1;
+}
+.iconfont {
+    font-family: iconfont;
+}
+.w650 {
+    width: 650px;
+}
+.w750 {
+    width: 750px;
+}
+.font-size-24 {
+    font-size: 24px;
+}
+.font-size-28 {
+    font-size: 28px;
+}
+.font-size-30 {
+    font-size: 30px;
+}
+.font-size-32 {
+    font-size: 32px;
+}
+.font-size-34 {
+    font-size: 34px;
+}
+.font-size-36 {
+    font-size: 36px;
+}
+.font-size-40 {
+    font-size: 40px;
+}
+.margin-left-19 {
+    margin-left: 19px;
+}
+.margin-left-20 {
+    margin-left: 20px;
+}
+.margin-left-22 {
+    margin-left: 22px;
+}
+.margin-left-25 {
+    margin-left: 25px;
+}
+.margin-left-28 {
+    margin-left: 32px;
+}
+.margin-left-32 {
+    margin-left: 32px;
+}
+.margin-left-35 {
+    margin-left: 35px;
+}
+.margin-left-42 {
+    margin-left: 42px;
+}
+.margin-left-233 {
+    margin-left: 233px;
+}
+.margin-right-15 {
+    margin-right: 15px;
+}
+.margin-right-20 {
+    margin-right: 20px;
+}
+.margin-right-25 {
+    margin-right: 25px;
+}
+.margin-right-30 {
+    margin-right: 30px;
+}
+.margin-right-32 {
+    margin-right: 30px;
+}
+.margin-top-5 {
+    margin-top: 5px;
+}
+.margin-top-16 {
+    margin-top: 16px;
+}
+.margin-top-18 {
+    margin-top: 18px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.margin-top-32 {
+    margin-top: 32px;
+} 
+.margin-top-35 {
+    margin-top: 35px;
+} 
+.margin-top-36 {
+    margin-top: 36px;
+} 
+.margin-top-64 {
+    margin-top: 64px;
+} 
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+.margin-bottom-104 {
+    margin-bottom: 104px;
+}
+.padding-right-10 {
+    padding-right: 10px;
+}
+.padding-right-15 {
+    padding-right: 15px;
+}
+.padding-right-33 {
+    padding-right: 33px;
+}
+
+.padding-right-36 {
+    padding-right: 36px;
+}
+.column-center {
+    flex-direction: column;
+    align-items: center;
+}
+
+.column-center-center {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    flex-direction: row;
+}
+
+.row-center {
+    flex-direction: row;
+    align-items: center;
+}
+.row-flex-end {
+    flex-direction: row;
+    justify-content: flex-end;
+  
+}
+.row-center-center {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.row-spacebetween-center {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.full {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.ch {
+    margin-right: 8px;
+    margin-bottom: 8px;
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+    background-color: gray;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.ch-status {
+    width: 70px;
+    height: 38px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-header {
+    height: 82px;
+    background-color: #ebeef4;
+    color: #8e8e93;
+    line-height: 80px;
+    padding-left: 32px;
+    padding-top: 9px;
+    font-size: 28px;
+}
+
+.s-header-1 {
+    height: 80px;
+    background-color: white;
+    color: black;
+    line-height: 80px;
+    padding-left: 32px;
+    font-size: 28px;
+    font-weight: bold;
+} 
+
+.bg-list {
+    background-color: #ebeef4;
+}
+
+.gray-color {
+    color: #8e8e93;
+}
+
+.fc-666{
+    color: #666666
+}
+.fc-999{
+    color: #999999
+}
+
+.white-color {
+    color: #FFFFFF
+}
+.black-color{
+    color: #000000
+}
+.blue-color {
+    color: #40b0ff;
+}
+.green-color {
+    color: #4cd964;
+}
+.red-color {
+    color: #ff3b30;
+}
+.blue-bg {
+    background-color: #40b0ff;
+}
+.white-bg {
+    background-color: #FFFFFF;
+}
+.gray-bg {
+    background-color: #8e8e93;
+}
+
+.deep-blue-bg {
+    background-color: #1f8cdb;
+}
+
+.bottom-button {
+    width: 400px;
+    height: 88px; 
+    line-height: 88px; 
+    color: white; 
+    border-radius: 44px;
+    font-size: 34px;
+    background-color: #40b0ff;
+}
+
+.loading {
+    align-items: center;
+    justify-content: center;
+}
+.indicator-text {
+    padding: 15px;
+    color: #888888;
+    font-size: 25px;
+    text-align: center;
+}
+.loading-indicator {
+    margin-top: 15px;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+    color: #42B0FF;
+  }
+  
+.filter {
+    width: 750px;
+    height: 1500px;
+  }
+
+.filter-table {
+    flex: 1;
+    height: 88px;
+    border-width: 0.5px;
+    border: solid;
+    border-color: #c7c7cc;
+  }
+
+.filter-0x{
+    width:80px;
+    height:80px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    background-color: #ebeef4;
+    border-color: #c7c7cc;
+}
+.filter-input {
+    background-color: #ebeef4;
+    width: 211px;
+    border-width: 1px;
+    font-size: 32px;
+    height: 80px;
+    padding-left: 20px;
+    border-style: solid;
+    border-color: #c7c7cc;
+}
+.filter-calculateBtn {
+    width: 230px;
+    height: 80px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #40b0ff;
+    align-items: center;
+    justify-content: center;
+}
+.filter-custom {
+    height: 137px;
+    width: 750px;
+}
+.filter-custom-icon{
+    width: 44px;
+    height: 44px;
+}
+.filter-border-top {
+    border-top-width: 1px;
+    border-top-color: rgb(240, 240, 240);
+}
+.filter-border-bottom {
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(240, 240, 240);
+}
+.border-bottom-width {
+    border-bottom-width: 1px;
+    border-bottom-color: #c7c7cc;
+}
+.border-bottom-width-1 {
+    border-bottom-width: 1px;
+
+}
+.filter-cell {
+    width:750px;
+    height:88px;
+}
+.ncell {
+    width: 750px;
+    height: 88px;
+  }
+
+.scell {
+    width:750px;
+    height:80px;
+}
+.fcell {
+    width:750px;
+    height:180px;
+}
+.hcell:active {
+    background-color: rgb(240, 240, 240);
+  }
+
+.icon {
+    width: 35px;
+    height: 35px;
+  }
